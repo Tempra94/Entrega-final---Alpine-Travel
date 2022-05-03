@@ -1,0 +1,34 @@
+.navbar, footer {
+  background-color: black !important;
+  color: white;
+}
+
+.contenedor {
+  background-color: black;
+}
+
+.contenedor h4 {
+  color: #339ff8;
+}
+
+.contenedor :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.contenedormedio {
+  padding: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.logo :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
