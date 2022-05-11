@@ -1,0 +1,27 @@
+@import "_variables";
+@mixin fontStyle{
+    font-size: 20px;
+    font-family: serif;
+}
+@mixin color {
+    color: white;
+        font-size: 20px;
+}
+.maingaleria{
+    background-color: $colorbg;
+    p{
+        @include color();
+        
+    }
+    h5{
+        @include color();
+    }
+}
+
+
+footer h4{
+    @include fontStyle();
+    p{
+        @include fontStyle();
+    }
+}

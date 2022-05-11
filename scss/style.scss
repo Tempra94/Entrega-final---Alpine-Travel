@@ -1,30 +1,5 @@
-@import "_variables";
-
-.navbar , footer{
-    background-color: $colorbg !important;
-    color: white;
-}
-.contenedor{
-    background-color: $colorbg;
-    h4{
-        color: rgb(51, 159, 248);
-        
-        }
-        :hover{
-            transform: $transform;
-            cursor: pointer;
-        }
-}
-.contenedormedio{
-    padding: 20px;
-}
-
-.logo{
-    width: 50px;
-    height: 50px;
-    :hover{
-        transform: $transform;
-        cursor: pointer;
-    }
-}
-
+@import "_index";
+@import "_galeria";
+@import "_contactos";
+@import "_nosotros";
+@import "_servicios";

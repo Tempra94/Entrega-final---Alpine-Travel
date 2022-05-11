@@ -1,0 +1,4 @@
+.mainparrafo p{
+    padding: map-get($parrafo , padding);
+    font-size: map-get($parrafo , font-size);
+}

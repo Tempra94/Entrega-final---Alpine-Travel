@@ -31,4 +31,49 @@
           transform: scale(1.1);
   cursor: pointer;
 }
+
+.maingaleria {
+  background-color: black;
+}
+
+.maingaleria p {
+  color: white;
+  font-size: 20px;
+}
+
+.maingaleria h5 {
+  color: white;
+  font-size: 20px;
+}
+
+footer h4 {
+  font-size: 20px;
+  font-family: serif;
+}
+
+footer h4 p {
+  font-size: 20px;
+  font-family: serif;
+}
+
+.menucontactos {
+  background-color: antiquewhite;
+}
+
+.bodynosotros {
+  background-color: antiquewhite;
+}
+
+.textonosotros p {
+  font-size: 15px;
+}
+
+.principal, .objetivos {
+  padding: 30px;
+}
+
+.mainparrafo p {
+  padding: 10px;
+  font-size: 20px;
+}
 /*# sourceMappingURL=style.css.map */

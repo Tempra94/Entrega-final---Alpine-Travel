@@ -1,0 +1,13 @@
+.bodynosotros{
+    background-color:$colorbackground;
+}
+.textonosotros p{
+    font-size: 15px;
+
+}
+.principal{
+    padding: 30px;
+}
+.objetivos{
+    @extend .principal;
+}
