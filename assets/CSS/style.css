@@ -3,22 +3,22 @@
   color: white;
 }
 
-.contenedor {
-  background-color: black;
+.iconosredes {
+  font-size: 30px;
 }
 
-.contenedor h4 {
-  color: #339ff8;
+.navbar, footer {
+  background-color: black !important;
+  color: white;
 }
 
-.contenedor :hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  cursor: pointer;
+.iconosredes {
+  font-size: 30px;
 }
 
-.contenedormedio {
-  padding: 20px;
+.navbar, footer {
+  background-color: black !important;
+  color: white;
 }
 
 .logo {
@@ -26,54 +26,32 @@
   height: 50px;
 }
 
-.logo :hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  cursor: pointer;
-}
-
-.maingaleria {
-  background-color: black;
-}
-
 .maingaleria p {
-  color: white;
   font-size: 20px;
 }
 
-.maingaleria h5 {
-  color: white;
-  font-size: 20px;
-}
-
-footer h4 {
-  font-size: 20px;
-  font-family: serif;
-}
-
-footer h4 p {
-  font-size: 20px;
-  font-family: serif;
-}
-
-.menucontactos {
-  background-color: antiquewhite;
-}
-
-.bodynosotros {
-  background-color: antiquewhite;
-}
-
-.textonosotros p {
-  font-size: 15px;
-}
-
-.principal, .objetivos {
-  padding: 30px;
-}
-
+/*index*/
 .mainparrafo p {
-  padding: 10px;
+  font-size: 25px;
+}
+
+/*Nosotros*/
+.tarjetasParrafo p {
   font-size: 20px;
+}
+
+.mainNosotros p {
+  font-size: 25px;
+}
+
+/*Servicios*/
+.PromoTarjetas p {
+  font-size: 25px;
+}
+
+/*contactos*/
+.formulario {
+  width: 900px;
+  height: 900px;
 }
 /*# sourceMappingURL=style.css.map */

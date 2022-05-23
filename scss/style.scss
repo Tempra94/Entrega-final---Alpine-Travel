@@ -1,5 +1,18 @@
-@import "_index";
 @import "_galeria";
-@import "_contactos";
 @import "_nosotros";
 @import "_servicios";
+@import "_contactos";
+@import "_index";
+@import "_variables";
+
+.navbar, footer {
+    background-color: black !important;
+    color: white;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+   

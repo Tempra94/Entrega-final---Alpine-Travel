@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alpine Travel</title>
     <script src="https://kit.fontawesome.com/0109008932.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body class="bodynosotros container-fluid">
+<body>
     <header>
         <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
             <div class="container-fluid">
@@ -21,19 +21,19 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="../pages/nosotros.html">Nosotros</a>
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="./servicios.html">Servicios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="../pages/galeria.html">Galeria</a>
+                    <a class="nav-link" href="../pages/galeria.html">Galeria</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="../pages/contactos.html">Contactos</a>
+                    <a class="nav-link" href="../pages/contactos.html">Contactos</a>
                   </li>
                   
                   </li>
@@ -42,41 +42,254 @@
             </div>
           </nav>
     </header>
-    <main class="mainparrafo">
-        <section class="d-flex flex-column text-center">
-            <h5 class="p-2">Nuestros paquetes de viajes </h5>
-            <p>Bariloche</p>
-            <div><img class="img-fluid" src="/img/Bariloche.jpg"></div>
-        </section>
-        <section class="d-flex flex-column text-center">
-            <p>San Martin de los Andes</p>
-            <div><img class="img-fluid" src="/img/San Martin de los Andes.jpg"></div>
-        </section>
-        <section class="d-flex flex-column text-center">
-            <p>Mendoza</p>
-            <div><img class="img-fluid" src="/img/Mendoza.jpg"></div>
-        </section>
-        <section class="d-flex flex-column text-center p-3">
-            <p>Ushuaia</p>
-            <div><img class="img-fluid" src="/img/Usuhaia.jpg"></div>
+    <main>
+        <section class="d-flex flex-column text-center p-4">
+            <h1 class="p-2">Nuestros paquetes de viajes </h1>
         </section>
 
-        <footer class="text-center p-4">
+        <section class="PromoTarjetas">
+          
+          <div class="card-group">
+            <div class="card">
+              <img src="../img/Promo2x1.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">BARILOCHE</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">4 noches en el hotel Interlaken 4 Estrellas</p>
+                <p class="card-text">Excursión "Circuito Chico"</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">SABER MAS </button>
 
-            <h4>Acerca de</h4>
-            <p>Somos una empresa de viajes y turismo habilitada por el Ministerio de Turismo de la Nación con la designación Fuera de Ruta EVT.
-      
-              Nos enfocamos en la creación de itinerarios orientados al interés particular de cada viajero</p>
-            <h4>011 - 1558013978</h4>
-            <h4>Av. Santa Fe 1549, Martinez</h4>
-      
-            <div>
-                <i class="fa-brands fa-facebook-f"></i>
-                </button><i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-whatsapp"></i>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Promocion Bariloche 2 x 1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            San Carlos de Bariloche, en la provincia argentina de Río Negro, es un lugar ideal para disfrutar tanto en verano como en invierno. Aunque es mayormente conocido por ser un centro de ski, existen numerosas actividades que pueden realizarse en todo momento del año.Para los amantes de la aventura, nada mejor que sentir la furia del agua con una travesía en kayak por los ríos helados y transparentes. Si lo tuyo son las excursiones, entonces un poco de trekking, mountain bike o una larga cabalgata entre los maravillosos senderos y bosques son tu opción. La adrenalina se siente al máximo con los vuelos en parapente y kite surf, pero para los más tranquilos, las posibilidades son numerosas: pesca, buceo, paseos en velero y kayak. Actividades sobran, y si te cansaste de los deportes extremos, podés visitar el Museo de la Asociación Paleontólogica de Bariloche, el Museo de la Patagonia o el Museo del Chocolate, por nombrar algunos.
+
+                            Las ofertas gastronómicas se adaptan a todos los gustos. Sin embargo, reconocidos chefs trabajan en la zona y ofrecen exquisitos productos gourmet ideales para los paladares exigentes. Lo mejor, es que utilizan la gran variedad de productos frescos que abundan en los alrededores como pescados, cordero, ciervo, frutos y verduras orgánicas. También resultan imperdibles los dulces caseros, los cholates y quesos, ideales para regalar a algún conocido.
+                            
+                            La vida nocturna también es conocida e intensa, con los numerosos pubs, bares y boliches que invitan a quedarse despierto toda la noche.
+                            
+                            Siempre uno quiere regresar con algún presente de un viaje y nada mejor que Bariloche para comprar. Tejidos, artesanías en cuero y madera, cerámicas y objetos de orfebrería son algunos de los productos de calidad que se pueden adquirir.
+                            
+                            Paisajes maravillosos, noches encantadoras y actividades entretenidas hacen de este lugar, una ciudad imperdible en un viaje por Argentina.
+
+                            <p>Incluye:</p>
+                            <p>Pasajes Aéreos Ida y Vuelta.</p> 
+                            <p>4 noches en el hotel Interlaken 4 Estrellas.</p> 
+                            <p>Excursión "Circuito Chico"</p>
+                            <p>Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                            <p>Todo a tan solo: $60.000</p>
+
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Reservar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+              </div>
             </div>
-      
-          </footer>
+            <div class="card">
+              <img src="../img/Promo50.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">MENDOZA</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">4 noches en el hotel Piazza 4 Estrellas.</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Visita a la ciudad de Mendoza Excursión "Caminos del Vino"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/Previajes.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">SAN MARTIN DE LOS ANDES</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">9 noches en el hotel Ayres del Filo 5 Estrellas.</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión " Descenso Mountain bike"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="../img/PromoChubut.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">CHUBUT</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">5 noches en el hotel Gran Madryn 4 Estrellas </p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión "Parque Nacional Los Alarces"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/PromoUsuhaia.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">USUHAIA</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">5 noches en el hotel Fin del Mundo 4 Estrellas.</p>
+                <p class="card-text">Traslados de llegada y de salida desde el Aeropuerto hasta el Hotel en zona céntrica.</p>
+                <button class="btn btn-primary">SABER MAS</button>
+
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/EscapadaSantaCruzFinde.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">SANTA CRUZ</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">6 noches en el hotel Kosten Aike 4 Estrellas</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión "Glaciar Perito Moreno"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="card-group">
+            <div class="card">
+              <img src="../img/PromocionFamiliar.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">RIO NEGRO</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">7 noches en el hotel La Malinka 4 Estrellas</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión "Cerro Tronador y Parque Nahuelito"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/PromocionCriptomonedas.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">NEUQUEN</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">7 noches en el hotel Amucan 4 Estrellas.</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión "Lago Hermoso"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/Promocion12Cuotas.jpg" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center text-center">
+                <h5 class="card-title">SAN LUIS</h5>
+                <p class="card-text">Pasajes Aéreos Ida y Vuelta.</p>
+                <p class="card-text">4 noches de Hotel Punta Lavalle 4 Estrellas.</p>
+                <p class="card-text">Traslados de llegada y salida desde el Aeropuerto hasta el Hotel.</p>
+                <p class="card-text">Excursión "Salinas de Bebedero"</p>
+                <button class="btn btn-primary">SABER MAS</button>
+                
+              </div>
+            </div>
+          </div>
+          
+          
+        </section>
+
+        <footer class="bg-dark text-center text-white">
+          <!-- Grid container -->
+          <div class="container p-4">
+        
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        
+              <!-- Twitter -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        
+              <!-- Google -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i class="fab fa-google"></i></a>
+        
+              <!-- Instagram -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+        
+              <!-- Linkedin -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+              <!-- Github -->
+              <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        
+        
+            <!-- Section: Form -->
+            <section class="">
+              <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                  <!--Grid column-->
+                  <div class="col-auto">
+                    <p class="pt-2">
+                      <strong>Suscribite a nuestra pagina</strong>
+                    </p>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-md-5 col-12">
+                    <!-- Email input -->
+                    <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2"></label>
+                    </div>
+                  </div>
+                  <!--Grid column-->
+        
+                  <!--Grid column-->
+                  <div class="col-auto">
+        
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-outline-light mb-4">
+                      Subscribete
+                    </button>
+                  </div>
+                  <!--Grid column-->
+                </div>
+                <!--Grid row-->
+              </form>
+            </section>
+            <!-- Section: Form -->
+        
+        
+            <!-- Section: Text -->
+            <section class="mb-4">
+              <p>Contacta con nosotros: 0810 - 345 - 0015</p>
+              <p>Lunes a Viernes de 9hs a 19hs</p>
+              <p>E-mail: info@apinetravel.com.ar</p>
+            </section>
+            <!-- Section: Text -->
+    
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2022 Copyright:
+            <a class="text-white" href="#">AlpineTravel.com</a>
+          </div>
+          <!-- Copyright -->
+        
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </main>
