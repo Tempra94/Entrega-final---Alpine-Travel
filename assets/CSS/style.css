@@ -48,7 +48,18 @@
 .PromoTarjetas p {
   font-size: 25px;
 }
+.card:hover{
+  transform: scale(1.05);
+  transition: 1s all;
+}
 
 /*contactos*/
+.maincontactos form{
+  background-color:silver;
+}
 
+.bigicon {
+  font-size: 35px;
+  color: #36A0FF;
+}
 /*# sourceMappingURL=style.css.map */
